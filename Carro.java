@@ -28,9 +28,9 @@ public class Carro {
         System.out.println("Consumo: " + Golf.ConsumoDecombustivel);          
         System.out.println("Adcionar 60 litros de gasolina!");
         Golf.adicionarGasolina(60.);//abastece 60 litros          
-        System.out.println("Combustível: " + Golf.obterGasolina());          
+        System.out.println("Tanque Golf: " + Golf.obterGasolina());          
         Golf.andar(80.);//Viaja 80 km          
         System.out.println("Andou 80km!");          
-        System.out.println("Combustível: " + Golf.obterGasolina());//combustivel restante
+        System.out.println("Tanque Golf: " + Golf.obterGasolina());//combustivel restante
     } 
 }
