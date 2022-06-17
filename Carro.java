@@ -31,6 +31,6 @@ public class Carro {
         System.out.println("Tanque Golf: " + Golf.obterGasolina());          
         Golf.andar(80.);//Viaja 80 km          
         System.out.println("Andou 80km!");          
-        System.out.println("Tanque Golf: " + Golf.obterGasolina());//combustivel restante
+        System.out.println("Tanque Golf: " + Golf.obterGasolina()+" restante!");//combustivel restante
     } 
 }
